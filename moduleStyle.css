@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-image: url("universalBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.houses {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.module-image {
+    width: 350px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    transition-duration: 0.5s;
+    
+}
+
+#sign1:hover {
+    width: 380px;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+#sign2:hover {
+    width: 380px;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+#sign3:hover {
+    width: 380px;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
